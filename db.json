@@ -1,0 +1,40 @@
+{
+    "pokemons":[
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "type": "Grass/Poison",
+            "level": 5,
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "speed": 45,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+            "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger."
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "type": "Grass/Poison",
+            "level": 16,
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "speed": 60,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+            "description": "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flowers coming bloom."
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "type": "Grass/Poison",
+            "level": 32,
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "speed": 80,
+            "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+            "description": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."
+        }
+    ]
+}
