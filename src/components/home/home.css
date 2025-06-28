@@ -1,0 +1,40 @@
+.pokemon-header{
+  h5{
+    display: block;
+    margin: 0;
+    padding-left: 10px;
+  }
+  h4{
+    display: block;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .pokemon-icon {
+    float: left;
+    padding: 25px;
+    margin: 10px;
+    background-image: url('https://img.pokemondb.net/sprites/ruby-sapphire/normal/bulbasaur.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.pokemon-card {
+    max-width: 350px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border: solid 1px #ddd;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

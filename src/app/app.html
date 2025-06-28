@@ -1,34 +1,5 @@
-<mat-toolbar class="header">
-  <button matIconButton class="example-icon" aria-label="Example icon-button with menu icon">
-    <mat-icon>menu</mat-icon>
-  </button>
-  <span class="app-title">Standard Pokedex</span>
-  <span class="header-spacer"></span>
-  <button matIconButton class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-    <mat-icon>favorite</mat-icon>
-  </button>
-  <button matIconButton class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>share</mat-icon>
-  </button>
-</mat-toolbar>
+<app-header/>
 
-<div class="row">
-
-  <div class="column">
-    <div class="card" appearance="outlined">
-      <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
-        <mat-card-title>Bulbasaur</mat-card-title>
-        <mat-card-subtitle>Bulb Plant Pokemon</mat-card-subtitle>
-      </mat-card-header>
-      <img src="https://img.pokemondb.net/artwork/large/bulbasaur.jpg" alt="Photo of Bulbasaur">
-      <mat-card-actions>
-        <button matButton>LIKE</button>
-        <button matButton>SHARE</button>
-      </mat-card-actions>
-    </div>
-  </div>
-
-</div>
+<app-home>
 
 <router-outlet />
