@@ -1,5 +1,7 @@
 <mat-toolbar class="header">
-  <button matIconButton class="example-icon" aria-label="Example icon-button with menu icon">
+  <button matIconButton class="example-icon"
+    aria-label="Example icon-button with menu icon"
+    (click)="toggleSidenav.emit()">
     <mat-icon>menu</mat-icon>
   </button>
   <span class="app-title">Standard Pokedex</span>

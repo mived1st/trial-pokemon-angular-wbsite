@@ -20,7 +20,7 @@
 }
 
 .pokemon-card {
-    max-width: 350px;
+    max-width: 175px;
     padding: 10px;
     margin: 20px;
     background-color: #f9f9f9;
@@ -36,5 +36,4 @@
 .column{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }

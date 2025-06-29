@@ -1,20 +1,16 @@
 import { RouterOutlet } from '@angular/router';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { Header } from "../components/header/header";
-import { Home } from "../components/home/home";
+import { Sidenav } from "../components/sidenav/sidenav";
 
 @Component({
   selector: 'app-root',
   imports: [
     RouterOutlet,
-    Header,
-    Home
+    Sidenav
 ],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
 
-export class App {
-  protected title = 'pokemon-trial-project';
-}
+export class App {}
