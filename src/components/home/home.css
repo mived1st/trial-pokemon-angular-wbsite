@@ -1,39 +1,64 @@
-.pokemon-header{
-  h5{
-    display: block;
-    margin: 0;
-    padding-left: 10px;
-  }
-  h4{
-    display: block;
-    margin: 0;
-    padding-left: 10px;
-  }
-  .pokemon-icon {
-    float: left;
-    padding: 25px;
-    margin: 10px;
-    background-image: url('https://img.pokemondb.net/sprites/ruby-sapphire/normal/bulbasaur.png');
-    background-size: cover;
-    background-position: center;
-  }
-}
+ .pokemon-name {
+   display: block;
+   margin: 0;
+   padding-left: 10px;
+   block-size: text;
+   font-size: 16px;
+   font-weight: bold;
+ }
 
-.pokemon-card {
-    max-width: 175px;
-    padding: 10px;
-    margin: 20px;
-    background-color: #f9f9f9;
-    border: solid 1px #ddd;
-    border-radius: 5%;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    img{
-        width: 100%;
-        height: auto;
-    }
-}
+ .sub-name {
+   display: block;
+   margin: 0;
+   padding-left: 10px;
+   block-size: text;
+   font-size: 12px;
+ }
 
-.column{
-    display: flex;
-    flex-wrap: wrap;
-}
+ .pokemon-icon {
+   float: left;
+   max-width: 75px;
+   height: auto;
+ }
+
+ .pokemon-card {
+   max-width: 200px;
+   padding: 10px;
+   margin: 20px;
+   background-color: #ffffff;
+   border: solid 1px #ddd;
+   border-radius: 5%;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   height: auto;
+ }
+
+
+ .pokemon-card img {
+   width: 100%;
+   height: auto;
+   object-fit: contain;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+   box-sizing: border-box;
+ }
+
+ .pokemon-card mat-card-actions {
+   margin-top: auto;
+   align-self: stretch;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   margin-bottom: 50px;
+ }
+
+ .column {
+   display: flex;
+   flex-wrap: wrap;
+ }
